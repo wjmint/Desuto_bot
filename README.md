@@ -64,18 +64,18 @@ gTTS                    = True
 
 # memo
 ## support language (pypapago)
-    | Code | Desc |
-    |--|--|
-    | ko | Korean |
-    | en | English |
-    | ja | Japanese |
-    | zh-CN | Chinese |
-    | zh-TW | Chinese Traditional |
-    | es | Spanash |
-    | fr | French |
-    | vi | Vietnamese |
-    | th | Thai |
-    | id | Indonasian |
+| Code | Desc |
+|--|--|
+| ko | Korean |
+| en | English |
+| ja | Japanese |
+| zh-CN | Chinese |
+| zh-TW | Chinese Traditional |
+| es | Spanash |
+| fr | French |
+| vi | Vietnamese |
+| th | Thai |
+| id | Indonasian |
 
 # secret functions
 ## choose trans destination language (for one text)
