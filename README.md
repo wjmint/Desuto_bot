@@ -1,7 +1,7 @@
 # Desuto_bot
 changed the translation engine of twichTransFree
 
-also, it is the beta version! you can only use English, Korean, Japanese now!
+also, it is still beta version! you can only use English, Korean, Japanese now!
 when I understand how to scrap, I will fix that problem!
 
 # USAGE
@@ -74,7 +74,7 @@ gTTS                    = True
 # secret functions
 ## choose trans destination language (for one text)
 At the time of translation, you can select the target language like `en:` at the beginning of the sentence.  
-Example) ru: Hello -> привет там
+Example) en: こんにちは -> hello
 
 ## translated text is send to chat-room
 If you want to send the translated text to chat-room in your channel, please read this section.
@@ -107,8 +107,9 @@ The developer of ...
 
 # Developer Info.
 
-| Title | Death_troy_bot_by.wjmint|
+| Title | Death_troy_bot_powered_by_wjmint|
 |--|--|
 | Developer | wjmint (original : husband_sayonari_omega) |
-|github | https://github.com/wjmint/- |
+| github | https://github.com/wjmint/Desuto_bot |
+| original program github | https://github.com/sayonari/twitchTransFreeNext |
 | mail | jamie060529@gmail.com |
