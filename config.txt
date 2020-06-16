@@ -1,9 +1,9 @@
 ######################################################
 # PLEASE CHANGE FOLLOWING CONFIGS ####################
-Twitch_Channel          = wjmint
+Twitch_Channel          = Twitch_Channel_here
 
-Trans_Username          = wjbot
-Trans_OAUTH             = zaqui8abzzk5uml724u6vnicw3pwm1
+Trans_Username          = Translator_name_here
+Trans_OAUTH             = Translator_oauth_here
 
 #######################################################
 # OPTIONAL CONFIGS ####################################

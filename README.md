@@ -61,8 +61,6 @@ gTTS                    = True
 | channelID | (with roomUUID) translated text is send to chat-room |
 | roomUUID | (with channelID) translated text is send to chat-room |
 
-
-# memo
 ## support language (pypapago)
 | Code | Desc |
 |--|--|
