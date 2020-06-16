@@ -1,9 +1,6 @@
 # Desuto_bot
 changed the translation engine of twichTransFree
 
-also, it is still beta version! you can only use English, Korean, Japanese now!
-when I understand how to scrap, I will fix that problem!
-
 # USAGE
 1. rewrite `config.txt`
 2. double-click `twitchTransFN.exe`
@@ -67,9 +64,18 @@ gTTS                    = True
 
 # memo
 ## support language (pypapago)
-    -English
-    -Korean
-    -Japanese
+    | Code | Desc |
+    |--|--|
+    | ko | Korean |
+    | en | English |
+    | ja | Japanese |
+    | zh-CN | Chinese |
+    | zh-TW | Chinese Traditional |
+    | es | Spanash |
+    | fr | French |
+    | vi | Vietnamese |
+    | th | Thai |
+    | id | Indonasian |
 
 # secret functions
 ## choose trans destination language (for one text)

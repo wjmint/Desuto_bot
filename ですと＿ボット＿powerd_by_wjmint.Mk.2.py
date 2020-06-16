@@ -1,4 +1,4 @@
-
+from langdetect import detect
 from pypapago import Translator
 from gtts import gTTS
 from playsound import playsound
@@ -29,45 +29,11 @@ TargetLangs = ["af", "sq", "am", "ar", "hy", "az", "eu", "be", "bn", "bs", "bg",
                "sv", "tg", "ta", "te", "th", "tr", "uk", "ur", "uz", "vi", "cy", "xh", "yi", "yo", "zu"]
 
 
-def engorkororjp(input_s):
-	k_count = 0
-	e_count = 0
-	j_count = 0
-	for c in input_s:
-		if ord('가') <= ord(c) <= ord('힣'):
-			k_count += 1
-		elif ord('a') <= ord(c.lower()) <= ord('z'):
-			e_count += 1
-		elif ord('あ') <= ord(c) <= ord('ん'):
-			j_count += 1
-		elif 0x2121 <= ord(c) <= 0x7E7E:
-			j_count += 1
-	if k_count > 0:
-		return 'ko'
-	elif j_count > 0:
-		return 'ja'
-	else:
-		return 'en'
+def langdetect(input_s):
+	return detect(input_s)
 
 def translating(x,su):
-	if su == 'ko':
-		return translator.translate(
-			x,
-			source = su,
-			target = 'ja'
-		)
-	if su == 'en':
-		return translator.translate(
-			x,
-			source = su,
-			target = 'ja'
-		)
-	if su == 'ja':
-		return translator.translate(
-			x,
-			source = su,
-			target = 'en'
-		)
+	return 
 
 
 config = {'Twitch_Channel':'',
@@ -156,7 +122,7 @@ class MyOwnBot(TwitchIrc):
 			return
 		lang_detect = ''
 		try:
-			lang_detect = engorkororjp(in_text)
+			lang_detect = langdetect(in_text)
 		except:
 			pass
 
