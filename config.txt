@@ -1,0 +1,32 @@
+######################################################
+# PLEASE CHANGE FOLLOWING CONFIGS ####################
+Twitch_Channel          = wjmint
+
+Trans_Username          = wjbot
+Trans_OAUTH             = zaqui8abzzk5uml724u6vnicw3pwm1
+
+#######################################################
+# OPTIONAL CONFIGS ####################################
+Trans_TextColor         = GoldenRod
+# Blue, Coral, DodgerBlue, SpringGreen, YellowGreen, Green, OrangeRed, Red, GoldenRod, HotPink, CadetBlue, SeaGreen, Chocolate, BlueViolet, and Firebrick
+
+lang_TransToHome        = ja
+lang_HomeToOther        = en
+
+Show_ByName             = True
+Show_ByLang             = True
+
+Ignore_Lang             = 
+Ignore_Users            = Nightbot, BikuBikuTest
+Ignore_Line             = http, BikuBikuTest
+Delete_Words            = saatanNooBow, BikuBikuTest
+
+# Any emvironment, set it to `True`, then text will be read by TTS voice!
+gTTS                    = True
+
+
+#######################################################
+# For TLANSLATE ROOM CONFIGS ##########################
+##### channelID <- owner_id, roomUUID <- _id ##########
+# channelID               = /u/wjmint
+# roomUUID                = 00000000-0000-0000-0000-00000	0000000
