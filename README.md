@@ -1,5 +1,5 @@
-# twitchTransFreeNext
-Next Generation of twitchTransFree!!!!
+# Desuto_bot
+changed the translation engine of twichTransFree
 
 # USAGE
 1. rewrite `config.txt`
@@ -7,41 +7,14 @@ Next Generation of twitchTransFree!!!!
 
 That's all!
 
-# I support my wife 24/7 :-) 
-This software is made for my wife!  
-http://twitch.tv/saatan_pion/  
-If you are satisfied by this software, please watch my wife's stream! We are waiting for comming you! and subscribe! donation!
-
-# We welcome your DONATE!!!!
-Donation is possible from the following link!  
-もし便利だなと思ったら．以下からDONATEしてください．開発中に食べるお菓子代にします！！！  
-https://twitch.streamlabs.com/saatan_pion#/
-
-# Please link from your page!
-プログラム使うときには，twitchページからリンクを張ってくれたら嬉しいです！（強制ではないです）
-
-さぁたんチャンネルと，翻訳ちゃんのページにリンクを貼っていただけると良いですが，紹介文は各自で考えてくださいρ
-
-[example]  
-Twitch: saatan  
-http://twitch.tv/saatan_pion/ 
-
-Software: twitchTransFreeNext  
-https://github.com/sayonari/twitchTransFreeNext
-
-紹介用の絵も頂いちゃいました．使ってください．  
-![trans_anomon](https://user-images.githubusercontent.com/16011609/49361210-c1f5ef80-f71e-11e8-8cff-6fd760e8738a.png)  
-Painted by anomon  
-https://www.twitch.tv/anomomm
-
 # config.txt
 ```
 ######################################################
 # PLEASE CHANGE FOLLOWING CONFIGS ####################
-Twitch_Channel          = https://www.twitch.tv/popout/moderator/wjmint/chat
+Twitch_Channel          = Twich_channel_here
 
-Trans_Username         = wjbot
-Trans_OAUTH              = 44qn77jweqi69igm2c3ufcep9gtah1
+Trans_Username         = Twitch_bot_name_here
+Trans_OAUTH              = Oauth_here
 
 #######################################################
 # OPTIONAL CONFIGS ####################################
@@ -114,14 +87,17 @@ NOTE: When rewriting config.txt, please delete the `#` mark at the beginning of 
 Thanks to Pioneers!
 The developer of ...
 - Google
-- googletrans by ssut
-    - https://github.com/ssut/py-googletrans
+- pypapago by Beomi
+    - https://github.com/Beomi/pypapago
 - gtts by pndurette
     - https://github.com/pndurette/gTTS
 - playsound by TaylorSMarks
     - https://github.com/TaylorSMarks/playsound
 - python_twitch_irc by jspaulsen
     - https://github.com/jspaulsen/python-twitch-irc
+- twitchTransFreeNext by sayonari
+    - https://github.com/sayonari/twitchTransFreeNext
+    # # this is the original application
 
 and Fix some bugs ...
 - gTTS-token by Boudewijn26
@@ -129,9 +105,8 @@ and Fix some bugs ...
 
 # Developer Info.
 
-| Title | Automatic Translator for Twitch Chat (Next Generation) |
+| Title | Death_troy_bot_by.wjmint|
 |--|--|
-| Developer | husband_sayonari_omega |
-|github | https://github.com/sayonari/twitchTransFreeNext |
-| mail | sayonari@gmail.com |
-| Twitter | [sayonari](https://twitter.com/sayonari) |
+| Developer | wjmint (original : husband_sayonari_omega) |
+|github | https://github.com/wjmint/- |
+| mail | jamie060529@gmail.com |
