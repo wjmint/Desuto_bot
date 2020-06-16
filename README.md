@@ -1,6 +1,9 @@
 # Desuto_bot
 changed the translation engine of twichTransFree
 
+also, it is the beta version! you can only use English, Korean, Japanese now!
+when I understand how to scrap, I will fix that problem!
+
 # USAGE
 1. rewrite `config.txt`
 2. double-click `twitchTransFN.exe`
@@ -63,8 +66,10 @@ gTTS                    = True
 
 
 # memo
-## support language (google translator)
-https://cloud.google.com/translate/docs/languages
+## support language (pypapago)
+    -English
+    -Korean
+    -Japanese
 
 # secret functions
 ## choose trans destination language (for one text)
@@ -97,11 +102,8 @@ The developer of ...
     - https://github.com/jspaulsen/python-twitch-irc
 - twitchTransFreeNext by sayonari
     - https://github.com/sayonari/twitchTransFreeNext
-    # # this is the original application
+    !!this is the original application!!
 
-and Fix some bugs ...
-- gTTS-token by Boudewijn26
-- googletrans/gtoken by michaeldegroot/cats-blender-plugin
 
 # Developer Info.
 
